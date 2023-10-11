@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<h1>Downloads</h1>
+<h1>Downloads class="styled-table"</h1>
 
 <h2>${description}</h2>
     
-<table>
+<table class="styled-table">
 <tr>
     <th>Song title</th>
     <th>Audio Format</th>

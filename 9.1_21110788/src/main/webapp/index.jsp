@@ -15,23 +15,27 @@
 			Welcome back,
 			<c:out value='${cookie.firstNameCookie.value}' />
 		</h2>
-	</c:if>
-
-	<c:if test="${cookie.userEmail.value!=null}">
+		<c:if test="${cookie.userEmail.value!=null}">
 		<h2>User Email: ${cookie.userEmail.value}</h2>
 		<br>
 	</c:if>
+	</c:if>
 
+	
+	<div class="container">
+		<p>
+			<a class="album-link"
+				href="download?action=checkUser&amp;productCode=8601"> 86 (the
+				band) - True Life Songs and Pictures ></a><br> <a
+				class="album-link"
+				href="download?action=checkUser&amp;productCode=pf01">
+				Paddlefoot The First CD ></a><br> <a class="album-link"
+				href="download?action=checkUser&amp;productCode=pf02">
+				Paddlefoot The Second CD </a><br> <a class="album-link"
+				href="download?action=checkUser&amp;productCode=jr01"> Joe Rut
+				Genuine Wood Grained Finish </a>
+		</p>
+	</div>
 
-	<p>
-		<a href="download?action=checkUser&amp;productCode=8601"> 86 (the
-			band) - True Life Songs and Pictures ></a><br> <a
-			href="download?action=checkUser&amp;productCode=pf01"> Paddlefoot
-			The First CD ></a><br> <a
-			href="download?action=checkUser&amp;productCode=pf02"> Paddlefoot
-			The Second CD </a><br> <a
-			href="download?action=checkUser&amp;productCode=jr01"> Joe Rut
-			Genuine Wood Grained Finish </a>
-	</p>
 </body>
 </html>

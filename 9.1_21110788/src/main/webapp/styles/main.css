@@ -1,61 +1,166 @@
 /* The styles for the elements */
-body { 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 85%;
-    margin-left: 2em;
-    margin-right: 2em;
-    width: 400px;
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	width: 100%;
+	background-color: rgb(192, 192, 192);
+	display: inline-block;
 }
-h1 {     
-    font-size: 140%;
-    color: teal;
-    margin-bottom: .5em;    
+
+h1 {
+	font-size: 2rem;
+	color: teal;
+	margin-bottom: .5em;
+	text-align: center;
 }
-h2 {     
-    font-size: 120%;
-    color: teal;
-    margin-bottom: .5em;    
+
+p {
+	text-align: center;
+	font-size: 1rem;
 }
+
+h2 {
+	font-size: 1.5rem;
+	color: teal;
+	text-align: center;
+}
+
 label {
-    float: left;
-    width: 7em;
-    margin-bottom: 0.5em;
-    font-weight: bold;
+	float: left;
+	width: 7em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	color: white;
 }
-input[type="text"], input[type="email"] {  /* An attribute selector */
-    width: 15em;
-    margin-left: 0.5em;    
-    margin-bottom: 0.5em;
+
+input[type="text"],
+input[type="email"] {
+	/* An attribute selector */
+	width: 15em;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
 }
+
 span {
-    margin-left: 0.5em;    
-    margin-bottom: 0.5em;    
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
 }
+
 br {
-    clear: both;
+	clear: both;
 }
 
 /* The styles for the tables */
 table {
-    border: 1px solid black;
-    border-collapse: collapse;
+	border: 1px solid black;
+	border-collapse: collapse;
 }
-th, td {
-    border: 1px solid black;
-    text-align: left;
-    padding: .5em;
+
+th,
+td {
+	border: 1px solid black;
+	text-align: left;
+	padding: .5em;
 }
 
 /* The styles for the classes */
 .pad_top {
-    padding-top: 0.25em;
+	padding-top: 0.25em;
 }
+
 .margin_left {
-    margin-left: 0.5em;
+	margin-top: 10px;
+	margin-left: 0.5em;
+	background-color: teal;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.1s ease;
 }
+
+.margin_left:hover {
+	background-color: #ff6b6b;
+}
+
 .align_left {
-    text-align: left;
+	text-align: left;
 }
+
 .align_right {
-    text-align: left;
+	text-align: left;
+}
+
+.container {
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 400px;
+	width: 350px;
+	padding: 50px 100px;
+	background-color: teal;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.album-link {
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.album-link:hover {
+	color: #ff6b6b;
+}
+
+.user-email {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #3498db;
+}
+
+a {
+	font-size: 18px;
+	text-decoration: none;
+	color: teal;
+}
+
+a:hover {
+	color: #ff6b6b;
+}
+
+.styled-table {
+	width: 100%;
+	max-width: 600px;
+	/* Adjust the maximum width as needed */
+	margin: 0 auto;
+	background-color: lightseagreen;
+	/* Light gray background color */
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+
+.styled-table th {
+	background-color: darkslategray;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px;
+	text-align: left;
+}
+
+.styled-table td {
+	padding: 10px;
+	text-align: left;
+}
+
+.styled-table tr:nth-child(even) {
+	background-color: teal;
+}
+
+td a {
+	color: white;
 }

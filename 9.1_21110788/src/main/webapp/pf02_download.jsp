@@ -13,7 +13,7 @@
 
 <h2>${description}</h2>
     
-<table>
+<table class="styled-table">
 <tr>
     <th>Song title</th>
     <th>Audio Format</th>
